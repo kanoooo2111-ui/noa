@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <audio src="SpotiDown.App - Message In A Bottle _Taylor_s Version_ _From The Vault_ - Taylor Swift.mp3" controls></audio>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kelas 9C</title>
+    <style>
+        /* Import Font Google */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        /* Reset Dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #1ed598;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigasi */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Hero Section (Beranda) */
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('https://source.unsplash.com/1600x900/?friends,school') center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        /* Container Konten */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        /* Struktur / Pengurus Kelas */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            background-color: #bdc3c7; /* Placeholder warna abu-abu */
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            color: #3498db;
+        }
+
+        /* Jadwal Pelajaran */
+        .jadwal-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>KELAS 9C</h1>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#pengurus">Pengurus Kelas</a>
+            <a href="#jadwal">Jadwal</a>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <h2>Selamat Datang di Website 9C!</h2>
+        <p>Kompak, Kreatif, dan Selalu Semangat. Ini adalah ruang digital tempat kami berbagi cerita, tugas, dan kenangan selama di kelas 9C.</p>
+    </section>
+
+    <div class="container">
+        <section id="tentang">
+            <h2 class="section-title">Tentang Kelas Kami</h2>
+            <p style="text-align: center; max-width: 800px; margin: auto; font-size: 1.1rem; color: #555;">
+                Kelas 9C adalah keluarga kedua bagi kami. Terdiri dari siswa-siswi yang memiliki berbagai macam bakat dan minat. Moto kami adalah "Belajar Bersama, Sukses Bersama!". Di sini kamu bisa melihat profil pengurus kelas dan jadwal pelajaran harian kami.
+            </p>
+        </section>
+
+        <br><br><hr style="border: 1px solid #ddd;"><br><br>
+
+        <section id="pengurus">
+            <h2 class="section-title">Pengurus Kelas 9C</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="SSG.jpeg" alt="Wali Kelas">
+                    <h3>Ibu SRI WIYANTI</h3>
+                    <p>Wali Kelas</p>
+                </div>
+                <div class="card">
+                    <img src="SUKARNO.jpeg" alt="Ketua Kelas">
+                    <h3>M.SUKARNO PUTRA</h3>
+                    <p>Ketua Kelas</p>
+                </div>
+                <div class="card">
+                    <img src="vika.jpeg"alt="Wakil Ketua">
+                    <h3>AVIKA LAVINA H</h3>
+                    <p>Wakil Ketua</p>
+                </div>
+                <div class="card">
+                    <img src="SSG.jpeg" alt="Sekretaris">
+                    <h3>ILMIATUL MUFIDA</h3>
+                    <p>Sekretaris 1</p>
+                 </div>
+                <div class="card">
+                    <img src="khansabert enstain2.jpeg" alt="Sekretaris">
+                    <h3>KHANSA NASIFAH Q</h3>
+                    <p>Sekretaris 2</p>
+                </div>
+                <div class="card">
+                    <img src="gita2.jpeg" alt="Bendahara">
+                    <h3>GITA SINAMBELA</h3>
+                    <p>Bendahara 1</p>
+                </div>
+            <div class="card">
+                    <img src="adel.jpeg" alt="Bendahara">
+                    <h3>NURADELIA</h3>
+                    <p>Bendahara 2</p>
+        </section>
+
+        <br><br><hr style="border: 1px solid #ddd;"><br><br>
+
+        <section id="jadwal">
+            <h2 class="section-title">Jadwal Pelajaran </h2>
+            <div class="jadwal-box">
+                <p style="text-align: center; color: #7f8c8d;">
+                    <em>.</em>
+                </p>
+                <ul style="margin-left: 40px; margin-top: 20px; line-height: 2;">
+                    <li><strong>Senin:</strong> Upacara, SBDP, IPS, IPA </li>
+                    <li><strong>Selasa:</strong> AGAMA, PPKN, IPA</li>
+                    <li><strong>Rabu:</strong> IPS, B ING, B INDO, TIK</li>
+                    <li><strong>Kamis:</strong> B ING, B INDO, MTK, PENJASKES</li>
+                    <li><strong>Jumat:</strong> MTK / B INDO</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kelas 9C. Dibuat dengan semangat kekompakan.</p>
+    </footer>
+
+</body>
+</html>

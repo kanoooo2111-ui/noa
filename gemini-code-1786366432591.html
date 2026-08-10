@@ -1,0 +1,26 @@
+<footer>
+        <p>&copy; 2026 Kelas 9C. Dibuat dengan semangat kekompakan.</p>
+    </footer>
+
+    <script>
+        let laguSudahDiputar = false;
+
+        window.addEventListener('scroll', function() {
+            // Mengambil elemen audio yang sudah ada di HTML
+            const audio = document.querySelector('audio');
+
+            // Cek apakah lagu belum diputar dan audio sedang berhenti
+            if (!laguSudahDiputar && audio.paused) {
+                audio.play().then(() => {
+                    // Jika berhasil diputar, ubah status agar tidak diputar ulang terus tiap scroll
+                    laguSudahDiputar = true; 
+                    console.log("Lagu berhasil diputar!");
+                }).catch((error) => {
+                    // Menangkap error jika browser memblokir autoplay
+                    console.log("Browser memblokir pemutaran otomatis. Pengguna harus klik halaman dulu.", error);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
